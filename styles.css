@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    font-family: 'Special Elite', cursive;
+    background: url(iphoneroom.jpg);
+    background-size: cover;
+}
+.drop-logo{
+    width: 3rem;
+    float: left;
+}
+
+.nav-logo{
+    display: none;
+}
+.topnav{
+    display: none;
+}
+.smallnav{
+    overflow: hidden;
+}
+.dropbtn{
+    float: right;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: black;
+}
+.dropdown-content{
+    font-family: 'Special Elite', cursive;
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+    transition: 0.5s;
+}
+.dropdown-content a {
+    float: block;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.dropbtn:hover .drop-logo{
+    display: none;
+}
+.dropdown-content a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+main{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    width: auto;
+    margin: 0x 100px;
+    border: 1px solid transparent;
+    color: black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.418);
+}
+
+h1{
+    text-align: center;
+    margin-top: 25%;
+}
+.clip-media{
+    text-align: center;
+    width: auto;
+    
+}
+.go-top {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+   background-color: transparent; 
+   transition: 0.3s;
+   border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .smallnav {
+        display: none;
+    }
+    .nav-logo{
+        width: 3em;
+        overflow: hidden;
+        float: left;
+    }
+    
+    .topnav{
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.418);
+        border-radius: 2px;
+    }
+    
+    .topnav a{
+        float: left;
+        display: flex;
+        align-items: center;
+        color: black;
+        padding: 5px 5px;
+        text-decoration: none;
+        font-size: 17px;
+        margin-right: 20%;
+    }
+}
