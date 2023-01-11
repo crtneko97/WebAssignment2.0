@@ -289,7 +289,9 @@ textarea{
     font-size: 50px;
     transition: 0.5s;
 }
-
+#sentTxt{
+    font-size: 2rem;
+}
 
 
 
