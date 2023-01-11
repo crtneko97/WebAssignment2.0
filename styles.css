@@ -90,7 +90,11 @@ h1{
    transition: 0.3s;
    border-radius: 8px;
 }
-form{
+main , form{
+    text-align: center;
+    border: 2px;
+}
+.contact-info{
     text-align: center;
 }
 input, select, option{
@@ -100,7 +104,7 @@ input, select, option{
     border: 2px solid black;
 }
 textarea{
-    width: 400px;
+    width: 350px;
     border-radius: 5px;
     border: 2px solid black;
 }
@@ -116,7 +120,175 @@ textarea{
     background-color: green;
     transition: 0.6s;
 }
-
+.hotel-info p{
+    font-size: 10px;
+}
+.hotel-info{
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    font-size: 50px;
+}
+.hotel-info a{
+    color: black;
+}
+.hotel-info a:hover{
+    transition: 0.4s;
+    color: green;
+    font-size: 60px;
+}
+.standard-room{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.standard-room img{
+    width: 100%;
+}
+.standard-room table,th,tr, td{
+    background-color: rgba(17, 16, 16, 0.24);
+    color: white;
+    border: 2px solid white;
+}
+.standard-room p{
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgba(17, 16, 16, 0.685);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.standard-room input{
+        font-family: 'Special Elite', cursive;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        border-radius: 5px;
+}
+.standard-room input:hover{
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    transition: 0.5s;
+}
+.business-room{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.business-room img{
+    width: 100%;
+}
+.business-room table,th,tr, td{
+    background-color: rgba(17, 16, 16, 0.24);
+    color: white;
+    border: 2px solid white;
+}
+.business-room p{
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgba(17, 16, 16, 0.685);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.business-room input{
+        font-family: 'Special Elite', cursive;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        border-radius: 5px;
+}
+.business-room input:hover{
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    transition: 0.5s;
+}
+.xl-room{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.xl-room img{
+    width: 100%;
+}
+.xl-room table,th,tr, td{
+    background-color: rgba(17, 16, 16, 0.24);
+    color: white;
+    border: 2px solid white;
+}
+.xl-room p{
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgba(17, 16, 16, 0.685);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.xl-room input{
+        font-family: 'Special Elite', cursive;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        border-radius: 5px;
+}
+.xl-room input:hover{
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    transition: 0.5s;
+}
+.shogun-room{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.shogun-room img{
+    width: 100%;
+}
+.shogun-room table,th,tr, td{
+    background-color: rgba(17, 16, 16, 0.24);
+    color: white;
+    border: 2px solid white;
+}
+.shogun-room p{
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgba(17, 16, 16, 0.685);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.shogun-room input{
+        font-family: 'Special Elite', cursive;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        border-radius: 5px;
+}
+.shogun-room input:hover{
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    transition: 0.5s;
+}
 
 
 

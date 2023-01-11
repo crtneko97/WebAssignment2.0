@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/cc1319ba98.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
@@ -51,9 +52,15 @@
         -->
         <h1>Contact Us</h1>
 
-        <p>Please follow the form if you would like to get in contact with us.</p>
+        <div class="hotel-info">
+            <a href="tel:+46123456789"><i class="fa-solid fa-phone"></i></a>
+            <a href="mailto:someone@yoursite.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.google.com/maps/place/Nest+Hotel+Sapporo+Ekimae/@43.0642369,141.3515451,17z/data=!4m18!1m9!3m8!1s0x5f0b2917977e7a8d:0x4ae844235697dd2d!2sJR+INN+Sapporo+Kita2jo!5m2!4m1!1i2!8m2!3d43.0642385!4d141.354161!3m7!1s0x0:0x5be3fbd5e36fd5e8!5m2!4m1!1i2!8m2!3d43.0640578!4d141.353741"><i class="fa-solid fa-map-location-dot"></i></a>
+        </div>
+            
+        <p class="contact-info">Please follow the form if you would like to get in contact with us.</p>
         
-
+        
         <form>
             
             <label for="subject">Select your subject</label><br>
@@ -63,25 +70,26 @@
                 <option value="cancel">Canel</option>
                 <option value="none-of-the-above">None of the above</option>
             </select>
-
+            
             <br>
-
+            
             <label for="fname">First name</label><br>
             <input type="text" id="fname" name="fname"><br>
             <label for="lname">Last name</label><br>
             <input type="text" id="lname" name="fname"><br>
             <label for="phonenumber">Phonenumber</label><br>
             <input type="text" id="phonenumber" name="phonenumber"><br>
-            <label for="emial">Email</label><br>
+            <label for="email">Email</label><br>
             <input type="text" id="email" name="email"><br>
-
+            
             <textarea name="message" id="message" cols="30" rows="10">Please message us also about specific topic...</textarea>
             <br>
-            <button class="sendbtn" type="submit">Send</button> 
+            <button class="sendbtn" type="submit" href="kontakt.html">Send</button> 
         </form>
 
 
-
+        
+        <p>Phonenumber: <strong>+46123456789</strong>       Email: <strong>mail@yoursite.com            </strong>Address: <strong>somewhereinJapan 45b</strong></p>
         <footer><a class="go-top" href="#navbar-id"><i class="fa-solid fa-angle-up"></i></a></footer>
     </main>
 </body>
