@@ -323,7 +323,11 @@ textarea{
         color: black;
         padding: 5px 5px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 40px;
         margin-right: 20%;
+    }
+    .topnav a:hover{
+        color: blue;
+        transition: 0.4s;
     }
 }
