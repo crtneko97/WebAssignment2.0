@@ -48,10 +48,12 @@ body{
     text-decoration: none;
     display: block;
     text-align: left;
+    margin-top: 4rem;
   }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 .dropbtn:hover .drop-logo{
     display: none;
